@@ -1,0 +1,165 @@
+html{
+    /* border: solid green; */
+}
+
+body{
+    /* border: solid red; */
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ebebeb;
+}
+
+Nav{
+/* border:solid; */
+padding: 15px;
+background-color: #6f267f;
+justify-content: center;
+height: 30px;
+}
+
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    margin-top: -6px;
+}
+
+.links{
+    /* border:solid; */
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    font-size: 15px;
+    padding-left: 30px;
+
+}
+
+.links a{
+    color: #fff;
+}
+
+.links a:hover{
+    background-color: #fff;
+    color: #F05537;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+
+.content{
+    /* border:solid orange; */
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card{
+    width:580px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 1px 1px 6px 1px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.card h1{
+    text-align: center;
+    color: #F05537;
+}
+
+.card label{
+    font-size: 20px;
+}
+
+.input-size input{
+    width: 500px;
+    height: 30px;
+    border-radius: 4px;
+    border-width: 1px;
+}
+
+.button-enviar{
+    text-align: center;
+}
+
+.button-enviar input{
+    cursor: pointer;
+    background-color: #F05537;
+    padding: 14px;
+    font-size: 18px;
+    border:none;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.button-enviar input:hover{
+    background-color: #6f267f;
+}
+
+.formulario{
+    /* border: solid; */
+    padding-left: 34px;
+}
+
+.list{
+    /* border: solid red;    */
+    padding: 30px;
+}
+
+.list a{
+    text-decoration: none;
+    color:#F05537;
+    font-size: 14px;
+}
+
+.list button {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #fff;
+border-radius: 6px;
+border-color: #F05537;
+padding: 4px;
+border: none;
+}   
+
+
+.list button img{
+  width: 16px;
+  height: 16px;
+}
+
+.list img{
+    width: 100%;
+    height: 300px;
+}
+
+.paginacao{
+    border: solid;
+}
+
+.botao{
+    /* border: solid; */
+    text-align: end;
+    padding-right: 22px;
+}
+
+.botao button{
+background-color: #F05537;
+border-radius: 6px;
+border-color: transparent;
+padding: 5px;
+}
+
+.botao a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.botao button:hover{
+    background-color: #6f267f;
+}
