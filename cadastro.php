@@ -59,7 +59,6 @@
                     <textarea type="text" name="descricao" id="descricao" rows="5" cols="65"></textarea> <br><br>
 
                     <label for="">Banner: </label><br>
-                    <!-- <input type="text" name="banner" id="banner"> <br><br> -->
                     <input name="banner" type="file" accept="image/*">
 
 

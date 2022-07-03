@@ -54,7 +54,6 @@
 
     if(($result_eventos) AND ($result_eventos->num_rows != 0)){
         while($evento = $result_eventos->fetch_assoc()){
-            // var_dump($evento);
             extract($evento);
 
             echo "<img src='fotos/$banner' alt='foto do banner'/> <br>";
